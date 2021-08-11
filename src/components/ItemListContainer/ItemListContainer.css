@@ -1,0 +1,16 @@
+.welcome{
+    margin: auto;
+    width: 40%;
+    height: 100px;
+    background-color: rgb(116, 240, 209);
+    text-align: center;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    position: relative;
+    
+}
+@keyframes myanimation{
+    0%{background-color:rgb(116, 240, 209) ; left: 0; top: 0px;}
+    50%{ background-color: blueviolet; left: 50px; top: 50px;}
+    75%{background-color: chartreuse; right: 35px; top: 30px;}
+}
